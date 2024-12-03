@@ -60,7 +60,7 @@
   .hero-content button {
     margin-bottom: 0;
     width: 37.52vw;
-    height: 7.79vw;
+    height: 6.79vw;
   }
 }
 
@@ -81,7 +81,6 @@
 }
 
 .hero-content p {
-  letter-spacing: -1px;
   font-weight: 400;
   font-size: 1.88vw;
   line-height: 1.93vw;
@@ -90,8 +89,7 @@
 @media (max-width: 768px /* Mobile */) {
   .hero-content p {
     line-height: 1.1;
-    letter-spacing: 0;
-    font-size: 3vw;
+    font-size: 2.5vw;
   }
 }
 
@@ -100,45 +98,35 @@
   flex-direction: column;
   vertical-align: middle;
   align-items: center;
-  gap: 3vw;
-  margin-top: 7vw;
+  gap: 1vw;
+  margin-top: 4.5vw;
 }
 
 .description-section-p1 {
   font-weight: 400;
-  font-size: 2.5vw;
-  letter-spacing: -1px;
-  line-height: 3.02vw;
+  font-size: 1.6vw;
+  line-height: 2vw;
   color: #1c2023;
   text-align: center;
 }
 
 @media (max-width: 768px /* Mobile */) {
   .description-section-p1 {
-    letter-spacing: 0;
     font-size: 3vw;
   }
 }
 
 .description-section-p2 {
-  font-size: 4.11vw;
-  letter-spacing: -2px;
-  line-height: 4.38vw;
+  font-size: 2.61vw;
+  line-height: 3vw;
   text-transform: uppercase;
   color: #1c2023;
   font-weight: 800;
   text-align: center;
 }
 
-@media (max-width: 768px /* Mobile */) {
-  .description-section-p2 {
-    letter-spacing: 0;
-  }
-}
-
 .description-section-p3 {
-  font-size: 2.4vw;
-  letter-spacing: -1px;
+  font-size: 1.3vw;
   line-height: 3.02vw;
   color: #1c2023;
   text-align: center;
@@ -147,7 +135,6 @@
 
 @media (max-width: 768px /* Mobile */) {
   .description-section-p3 {
-    letter-spacing: 0;
     font-size: 3vw;
   }
 }
@@ -155,9 +142,9 @@
 .description-section button {
   position: relative;
   top: 1.5vw;
-  border-radius: 3.18vw;
-  width: 49.01vw;
-  height: 9.48vw;
+  border-radius: 2.18vw;
+  width: 39vw;
+  height: 5.48vw;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -165,21 +152,26 @@
   background-image: linear-gradient(15deg, #66bdd2 0%, #98d3e1 100%);
 }
 
+@media (max-width: 768px /* Mobile */) {
+  .description-section button {
+    height: 8.9vw;
+    width: 47.9vw;
+  }
+}
+
 .description-section button h3 {
-  letter-spacing: -4px;
   line-height: 5vw;
   font-weight: 800;
   color: white;
   text-transform: uppercase;
   white-space: nowrap;
-  font-size: 5.36vw;
+  font-size: 4vw;
   margin: 0 auto;
 }
 
 @media (max-width: 768px /* Mobile */) {
   .description-section button h3 {
-    letter-spacing: 0;
-    font-size: 5vw;
+    font-size: 4.8vw;
   }
 }
 
@@ -195,14 +187,14 @@
   .section-card {
     flex-direction: column;
     align-items: center;
-    padding: 1rem 0 0 0;
+    padding: 5vw 0 0 0;
   }
 }
 
 .section-card-div-1 {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1.9vw;
   margin-left: 10px;
   padding-left: 10vw;
 }
@@ -217,17 +209,16 @@
 }
 
 .section-card-div-1-p-1 {
-  letter-spacing: -1px;
   font-weight: 400;
-  font-size: 2vw;
+  font-size: 1.8vw;
   line-height: 1;
   color: white;
   text-align: left;
+  width: 68%;
 }
 
 @media (max-width: 768px /* Mobile */) {
   .section-card-div-1-p-1 {
-    letter-spacing: 0;
     font-size: 5vw;
     text-align: center;
   }
@@ -236,11 +227,16 @@
 .section-card-div-1-span-1 {
   font-weight: 700;
   color: #6abfd3;
+  width: 10%;
+  line-height: 1;
 }
 
 .section-card-div-1-p-2 {
   color: #6abfd3;
-  font-size: 2vw;
+  font-size: 1.95vw;
+  line-height: 1;
+  text-align: left;
+  width: 68%;
 }
 
 @media (max-width: 768px /* Mobile */) {
@@ -299,7 +295,6 @@
   font-size: 1.7vw;
   line-height: 2.24vw;
   margin: 0 auto;
-  letter-spacing: -2px;
   filter: drop-shadow(0px 3px 9px rgba(0, 0, 0, 0.35));
   filter: drop-shadow(0px 3px 4px rgba(0, 0, 0, 0.19));
 }
@@ -352,7 +347,6 @@
 
 .section-card-div-2 {
   margin-right: 40px;
-  width: 75%;
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
@@ -369,7 +363,7 @@
 }
 
 .card {
-  height: 25vw;
+  height: 22vw;
   width: 15vw;
   border-radius: 1rem;
   overflow: hidden;
@@ -385,9 +379,15 @@
 }
 
 .card img {
-  height: 85%;
+  height: 82%;
   width: 100%;
   display: block;
+}
+
+@media (max-width: 768px /* Mobile */) {
+  .card img {
+    height: 85%;
+  }
 }
 
 .card-text {
@@ -398,7 +398,7 @@
   font-weight: bold;
   font-size: 1.3vw;
   height: 100%;
-  padding-top: 10px;
+  padding-top: 0.5vw;
 }
 
 @media (max-width: 768px /* Mobile */) {
@@ -415,9 +415,9 @@
   text-transform: uppercase;
   text-align: center;
   font-weight: bold;
-  font-size: 1vw;
+  font-size: 1.3vw;
   height: 100%;
-  padding-top: 10px;
+  padding-top: 0.5vw;
   display: flex;
   flex-direction: column;
 }
@@ -435,31 +435,16 @@
   text-transform: uppercase;
 }
 
-.special-span1 {
+.special-span {
   color: black;
   text-transform: uppercase;
-}
-
-.special-span2 {
-  color: #6abfd3;
-  font-weight: bold;
-  text-shadow: 2px 2px 2px #000, 2px 2px 4px #000, 2px 2px 6px #000,
-    2px 2px 8px #000, 2px 2px 10px #000, 2px 2px 12px #000, 2px 2px 14px #000;
-  border-radius: 5px;
-  padding-top: 1px;
-  font-size: 0.8vw;
-}
-
-@media (max-width: 768px /* Mobile */) {
-  .special-span2 {
-    font-size: 2vw;
-  }
 }
 
 .card-2 {
   width: 49vw;
   border-radius: 1rem;
   overflow: hidden;
+  height: 50%;
 }
 
 @media (max-width: 768px /* Mobile */) {
@@ -470,7 +455,7 @@
 }
 
 .card-2 img {
-  height: 50%;
+  height: 60%;
   width: 100%;
   display: block;
 }
@@ -491,7 +476,7 @@
   font-size: 1.3vw;
   border-bottom-left-radius: 1rem;
   border-bottom-right-radius: 1rem;
-  padding-top: 15px;
+  padding-top: 0.5vw;
   height: 15%;
 }
 
@@ -519,15 +504,10 @@
   padding: 4vw 0 4vw 0;
 }
 
-@media (max-width: 768px /* Mobile */) {
-  .cta-section-1 {
-  }
-}
-
 .cta-section-1 h2 {
   text-transform: uppercase;
   font-weight: 800;
-  font-size: 2.8vw;
+  font-size: 2vw;
   line-height: 1;
   color: #5c666c;
   text-align: center;
@@ -541,13 +521,13 @@
 
 .cta-section-1 button {
   border-radius: 1rem;
-  width: 30vw;
-  height: 4.5vw;
+  width: 27vw;
+  height: 4vw;
   display: flex;
   align-items: center;
   justify-content: center;
   filter: drop-shadow(0px 12px 13.5px rgba(0, 0, 0, 0.23));
-  background-image: linear-gradient(6deg, #66bdd2 0%, #98d3e1 100%);
+  background-image: linear-gradient(15deg, #66bdd2 0%, #98d3e1 100%);
 }
 
 @media (max-width: 768px /* Mobile */) {
@@ -562,13 +542,15 @@
   color: white;
   text-transform: uppercase;
   white-space: nowrap;
-  font-size: 2.75vw;
+  font-size: 2.55vw;
   margin: 0 auto;
+  filter: drop-shadow(0px 3px 12px rgba(0, 0, 0, 0.57));
+  filter: drop-shadow(0px 3px 12px rgba(0, 0, 0, 0.19));
 }
 
 @media (max-width: 768px /* Mobile */) {
   .cta-section-1 button h3 {
-    font-size: 5vw;
+    font-size: 5.4vw;
   }
 }
 
@@ -640,7 +622,7 @@
   font-size: 2vw;
   line-height: 1;
   text-transform: uppercase;
-  margin-top: 45px;
+  margin-top: 2vw;
 }
 
 @media (max-width: 768px /* Mobile */) {
@@ -655,7 +637,7 @@
   text-align: center;
   font-size: 2vw;
   line-height: 1;
-  letter-spacing: -1px;
+
 }
 
 @media (max-width: 768px /* Mobile */) {
@@ -690,8 +672,7 @@
   text-align: center;
   font-weight: 800;
   font-size: 2vw;
-  line-height: 3.02vw;
-  letter-spacing: -1px;
+  line-height: 1;
   text-transform: uppercase;
 }
 
@@ -707,7 +688,6 @@
   text-align: center;
   font-size: 2vw;
   line-height: 1;
-  letter-spacing: -1px;
 }
 
 @media (max-width: 768px /* Mobile */) {
@@ -735,7 +715,6 @@
 }
 
 .benefits-section-container-2 h3 {
-  letter-spacing: -1px;
   font-weight: 800;
   text-align: center;
   color: white;
@@ -807,15 +786,13 @@
 .benefits-section-container-3 button {
   width: 49.01vw;
   height: 9.48vw;
-  border-radius: 61px;
+  border-radius: 1rem;
   filter: drop-shadow(0px 12px 13.5px rgba(0, 0, 0, 0.23));
   background-image: linear-gradient(15deg, #66bdd2 0%, #98d3e1 100%);
 }
 
 .benefits-section-container-3 h3 {
-  font-size: 5.36vw;
-  letter-spacing: -4px;
-  line-height: 96px;
+  font-size: 5.16vw;
   text-transform: uppercase;
   color: #ffffff;
   font-weight: 800;
@@ -826,14 +803,12 @@
 @media (max-width: 768px /* Mobile */) {
   .benefits-section-container-3 h3 {
     line-height: 1;
-    letter-spacing: 0;
-    font-size: 4vw;
+    font-size: 4.6vw;
   }
 }
 
 .benefits-section-container-3-p2 {
   font-size: 1.15vw;
-  letter-spacing: 0px;
   line-height: 1;
   color: #1c2023;
 }
@@ -928,7 +903,7 @@
 
 .footer-container p {
   font-size: 2.4vw;
-  letter-spacing: -2px;
+
   line-height: 1;
   color: #ffffff;
   text-align: center;
@@ -937,6 +912,5 @@
 @media (max-width: 768px /* Mobile */) {
   .footer-container p {
     font-size: 4vw;
-    letter-spacing: 0;
   }
 }
