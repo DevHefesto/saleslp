@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Consis</title>
   <link rel="stylesheet" href="styles.css">
+  <script src="script.js"></script>
 </head>
 
 <body>
@@ -15,7 +16,7 @@
         <h2>
           FECHADURA <br /> ELETRÔNICA PARA <br /> APARTAMENTOS
         </h2>
-        <button>
+        <button class="open-form-button">
           <h3>Com impressão Digital</h3>
         </button>
         <p>
@@ -38,17 +39,29 @@
       <p class="description-section-p3">
         Faça um orçamento hoje mesmo!
       </p>
-      <button>
+      <button class="open-form-button">
         <h3>Compre agora</h3>
       </button>
     </section>
+
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <button id="close-modal" class="close-button">&times;</button>
+        <script data-b24-form="inline/8/kpl1fg" data-skip-moving="true">
+          (function (w, d, u) {
+            var s = d.createElement('script'); s.async = true; s.src = u + '?' + (Date.now() / 180000 | 0);
+            var h = d.getElementsByTagName('script')[0]; h.parentNode.insertBefore(s, h);
+          })(window, document, 'https://cdn.bitrix24.com.br/b27866221/crm/form/loader_8.js');
+        </script>
+      </div>
+    </div>
 
     <section class="section-card">
       <div class="section-card-div-1">
         <p class="section-card-div-1-p-1">
           Ideal para quem busca modernidade e proteção, a
           <span class="section-card-div-1-span-1">
-          fechadura eletrônica
+            fechadura eletrônica
           </span>
           combina alta tecnologia com um design elegante,
           garantindo total controle sobre quem entra e sai do
@@ -83,12 +96,12 @@
         <div class="card">
           <img src="/assets/chave.png" alt="Painel de segurança eletrônica com chave inserida">
           <div class="special-card-text">
-            abertura com<br><span class="special-span">chave mecânica</span>
+            abertura com<br><span class="special-span">chave física</span>
           </div>
         </div>
 
         <div class="card-2">
-          <img src="/assets/digital3.png" alt="Mão abrindo porta com painel de segurança eletrônica">
+          <img src="/assets/digital.png" alt="Mão abrindo porta com painel de segurança eletrônica">
           <div class="card-text-2">
             abertura com<br><span>impressão digital</span>
           </div>
@@ -98,7 +111,7 @@
 
     <section class="cta-section-1">
       <h2>invista em mais segurança<br>para toda a sua família</h2>
-      <button>
+      <button class="open-form-button">
         <h3>Compre agora</h3>
       </button>
     </section>
@@ -143,7 +156,7 @@
             pagamento no pix com 5% de desconto.
           </span>
         </p>
-        <button>
+        <button class="open-form-button">
           <h3>Compre agora</h3>
         </button>
         <p class="benefits-section-container-3-p2">**Fazendo a conexão via Bluetooth com o modo Wi-Fi desativado.</p>
